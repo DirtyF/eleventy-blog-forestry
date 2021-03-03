@@ -17,6 +17,8 @@ fields:
 - type: text
   name: layout
   label: layout
+  default: layouts/post.njk
+  hidden: true
 - name: tags
   type: tag_list
   default:
