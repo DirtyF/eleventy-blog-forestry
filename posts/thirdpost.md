@@ -1,7 +1,7 @@
 ---
 title: This is my third post.
 description: This is a post on My Blog about win-win survival strategies.
-date: 2021-03-01
+date: 2021-03-02
 tags:
 - second-tag
 layout: layouts/post.njk
