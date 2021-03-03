@@ -7,13 +7,19 @@ fields:
   label: title
 - type: text
   name: description
-  label: description
+  label: Summary
 - type: datetime
   name: date
-  label: date
+  label: Published Date
   default: now
   config:
     export_format: YYYY-MM-DD
+- name: author
+  type: text
+  config:
+    required: false
+  label: Author
+  default: Zach Leatherman
 - name: image
   type: file
   config:
@@ -31,9 +37,3 @@ fields:
   - post
   label: tags
   hidden: true
-- name: author
-  type: text
-  config:
-    required: false
-  label: Author
-  default: Zach Leatherman
