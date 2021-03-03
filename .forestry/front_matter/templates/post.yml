@@ -14,9 +14,12 @@ fields:
   default: now
   config:
     export_format: YYYY-MM-DD
-- type: list
-  name: tags
-  label: tags
 - type: text
   name: layout
   label: layout
+- name: tags
+  type: tag_list
+  default:
+  - post
+  label: tags
+  hidden: true
