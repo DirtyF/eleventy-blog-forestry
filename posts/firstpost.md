@@ -1,12 +1,12 @@
 ---
 title: This is my first post.
 description: This is a fake post on agile frameworks
-date: 2018-05-01
+date: 2021-03-01
 tags:
-  - another-tag
+- another-tag
 layout: layouts/post.njk
----
 
+---
 ![](/img/david-monje-eUB_CYMxawE-unsplash.jpg)
 Photo by https://unsplash.com/@davidmonje
 
