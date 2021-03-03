@@ -4,6 +4,8 @@ templateClass: tmpl-post
 ---
 <h1>{{ title }}</h1>
 
+<time class="postlist-date" datetime="{{ post.date | htmlDateString }}">{{ date | readableDate }}</time>
+
 {{ content | safe }}
 
 <hr>
