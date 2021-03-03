@@ -9,6 +9,8 @@ sections:
   label: Posts
   create: documents
   match: "*.md"
+  templates:
+  - post
 - type: document
   path: _data/metadata.json
   label: Metadata
