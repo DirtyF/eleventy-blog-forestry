@@ -1,7 +1,7 @@
 ---
 title: This is my first post.
 description: This is a fake post on agile frameworks
-date: 2021-03-01
+date: 2021-02-27
 tags:
 - another-tag
 layout: layouts/post.njk
