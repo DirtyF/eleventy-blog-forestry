@@ -16,6 +16,7 @@ fields:
   default: now
   config:
     export_format: YYYY-MM-DD
+    display_utc: true
 - name: author
   type: text
   config:
